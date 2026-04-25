@@ -11,11 +11,11 @@ This repository showcases a before and after documentation case study demonstrat
 
 This repository includes:
 
-- **Before Documentation Sample**  
-  Original baseline guide used as source material.
 
-- **After Documentation Sample**  
-  Improved version redesigned for usability, clarity, and better task flow.
+- [Before Sample (Source Guide)](https://www.experian.in/wp-content/uploads/sites/27/2024/10/Experian-India-How-to-raise-a-dispute-guide.pdf)
+
+- [After Sample (Enhanced User Guide)](enhanced-user-guide-redesign.md)
+
 
 ## Case Study Focus
 
