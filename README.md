@@ -1,99 +1,108 @@
-# AI Documentation Portfolio
-
-Portfolio of technical documentation samples demonstrating content transformation, documentation UX improvements, and AI-assisted documentation workflows.
+# Lead Technical Writer Portfolio
 
 ## Overview
-This repository showcases a before and after documentation case study demonstrating how raw or baseline documentation can be transformed into clearer, more user-centeric documentation through structured technical writing and editorial strategy.
 
-## Repository Contents
+This repository showcases documentation projects focused on improving user experience, developer experience, and content effectiveness through structured technical communication.
 
-### Documentation Transformation Case Study
-
-This repository includes:
-
-
-- [Before Sample (Source Guide)](https://www.experian.in/wp-content/uploads/sites/27/2024/10/Experian-India-How-to-raise-a-dispute-guide.pdf)
-
-- [After Sample (Enhanced User Guide)](enhanced-user-guide-redesign.md)
-
-
-## Case Study Focus
-
-This sample demonstrates improvements in:
-
-- Task-oriented documentation  
-- Information architecture  
-- User experience in procedural content  
-- Simplification of complex instructions  
-- Content consistency and readability  
-- Human-in-the-loop AI-assisted refinement
-
-## Problem
-The original documentation presented opportunities to improve:
-
-- Flow and task sequencing  
-- Content structure  
-- User guidance and context  
-- Scanability  
-- Instruction clarity
-
-## Approach
-The revised guide applies:
-
-- Reorganized step flow  
-- Improved instructional writing  
-- Better navigation and progression  
-- Stronger visual and textual alignment  
-- User-centered documentation principles
-
-## Outcome
-
-| Area | Before | After |
-|------|--------|-------|
-| Task Flow | Linear but dense | Streamlined and guided |
-| Clarity | Functional | User-focused |
-| Structure | Basic procedural | Improved information architecture |
-| Readability | Moderate | Enhanced |
-| User Experience | Instruction-driven | Task-driven |
-
-## Repository Structure
-
-```bash
-AI-documentation-portfolio/
-├── before-guide.pdf
-├── after-guide.pdf
-└── README.md
-```
-
-## Skills Demonstrated
-This repository highlights experience in:
-
-- Technical Writing  
-- Content Design  
-- Documentation Strategy  
-- Documentation UX  
-- Structured Authoring  
-- AI-Augmented Documentation
-
-## Documentation Principles Applied
-This work emphasizes documentation that is:
-
-- Accurate  
-- Usable  
-- Scalable  
-- Maintainable  
-- Designed for user success
-
-## Future Additions
-This portfolio will expand with:
-
-- API documentation samples  
-- Documentation automation workflows  
-- AI-assisted authoring examples  
-- Content strategy case studies
-
-## About me
-Lead Technical Writer exploring modern documentation at the intersection of structured authoring, automation, and AI.
+The portfolio demonstrates documentation auditing, content redesign, API documentation, information architecture, and AI-assisted documentation workflows.
 
 ---
-This repository is part of an evolving documentation portfolio.
+
+## Projects
+
+### API Documentation Redesign
+
+Audit and redesign of the Fullstory Create User API documentation.
+
+**Focus Areas**
+
+- API Documentation
+- Developer Experience (DX)
+- Information Architecture
+- Documentation Auditing
+- Content Strategy
+
+**Deliverables**
+
+- Documentation Audit
+- Redesign Rationale
+- Redesigned API Documentation
+
+ `api-documentation`
+
+
+
+### User Guide Transformation
+
+Before-and-after redesign of a customer-facing guide for raising disputes on an Experian Credit Report.
+
+**Focus Areas**
+
+- User Documentation
+- Content Design
+- Documentation UX
+- Information Architecture
+- Task-Oriented Writing
+
+**Deliverables**
+
+- Original Guide
+- Redesigned Guide
+- Documentation Analysis
+
+ `user-guides`
+
+
+
+## Skills Demonstrated
+
+- Technical Writing
+- API Documentation
+- Developer Experience (DX)
+- Information Architecture
+- Documentation Strategy
+- Content Design
+- Structured Authoring
+- Documentation Auditing
+- AI-Assisted Documentation
+
+
+
+## About Me
+
+Lead Technical Writer with 9+ years of experience creating customer-facing and developer-facing documentation.
+
+Interested in documentation strategy, AI-assisted authoring, developer experience, and content operations.
+
+---
+
+## Portfolio Objective
+
+This repository is an evolving collection of documentation projects demonstrating practical approaches to improving clarity, usability, and overall documentation quality.
+
+---
+
+### Repository Structure
+
+```text
+AI-documentation-portfolio/
+│
+├── README.md
+│
+├── api-documentation/
+│   ├── README.md
+│   ├── before-analysis.md
+│   ├── redesign-rationale.md
+│   └── after-create-user-api.md
+│
+└── user-guides/
+    ├── README.md
+    ├── before.pdf
+    └── after.pdf
+```
+
+---
+
+## Disclaimer
+
+The projects in this repository are intended for portfolio and learning purposes. Documentation redesigns are based on publicly available content and are presented as independent documentation improvement exercises.
