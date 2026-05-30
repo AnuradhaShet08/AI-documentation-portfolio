@@ -28,28 +28,28 @@ The redesign focuses on improving developer onboarding, implementation success, 
 ## Original Structure
 
 
-Overview
-Parameters
-Response
-Code Sample
+* Overview
+* Parameters
+* Response
+* Code Sample
 
 
 ## Redesigned Structure
 
 
-Goal
-When to Use
-Authentication
-Quick Start
-Request Example
-Request Fields
-Constraints
-Response
-Verification
-Lifecycle
-Errors
-Troubleshooting
-Best Practices
+* Goal
+* When to Use
+* Authentication
+* Quick Start
+* Request Example
+* Request Fields
+* Constraints
+* Response
+* Verification
+* Lifecycle
+* Errors
+* Troubleshooting
+* Best Practices
 
 
 
