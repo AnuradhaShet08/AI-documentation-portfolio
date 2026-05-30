@@ -5,6 +5,17 @@
 Create or update a known user in Fullstory and associate that user with application activity, analytics, and session data.
 
 
+# Target Audience
+
+Primary:
+Backend developers
+
+Secondary:
+Integration engineers
+
+Assumptions:
+Basic REST API knowledge
+
 
 ## When to Use This API
 
@@ -14,6 +25,21 @@ Use this endpoint when:
 - A user authenticates
 - Customer profile information changes
 - CRM data is synchronized
+
+
+## Business Value
+
+This endpoint helps organizations associate customer identities with product activity and analytics data.
+
+By identifying users, teams can:
+
+- Connect customer profiles to behavioral analytics
+- Improve customer support investigations
+- Analyze product adoption by customer segment
+- Synchronize identity information across business systems
+- Build more accurate reporting and customer insights
+
+This capability forms the foundation for customer-level analytics and user-centric reporting within Fullstory.
 
 
 
@@ -49,7 +75,7 @@ Base URL:
 https://api.fullstory.com
 ```
 
----
+
 
 # Authentication
 
@@ -106,7 +132,7 @@ curl --request POST \
 }
 ```
 
----
+
 
 # Request Headers
 
@@ -116,7 +142,7 @@ curl --request POST \
 | Content-Type    | Yes      | Must be `application/json`               |
 | Idempotency-Key | No       | Makes the request safely retryable       |
 
----
+
 
 # Request Body
 
@@ -133,7 +159,7 @@ curl --request POST \
 }
 ```
 
----
+
 
 # Request Fields
 
@@ -144,7 +170,7 @@ curl --request POST \
 | email        | string | User email address                           |
 | properties   | object | Additional metadata associated with the user |
 
----
+
 
 # Field Constraints
 
@@ -157,7 +183,7 @@ curl --request POST \
 | Property value    | Maximum 8192 bytes     |
 | Unique properties | Maximum 500            |
 
----
+
 
 # Property Naming Rules
 
@@ -181,7 +207,7 @@ Property names:
 }
 ```
 
----
+
 
 # Idempotency
 
@@ -207,7 +233,7 @@ When the same request is retried using the same idempotency key:
 * Fullstory processes the request only once.
 * Subsequent retries return the original result.
 
----
+
 
 # Verify User Creation
 
@@ -219,7 +245,7 @@ You can also:
 * Search for the user using the List Users endpoint.
 * Access the user's profile card through the returned `app_url`.
 
----
+
 
 # User Lifecycle
 
@@ -239,7 +265,7 @@ A user will not immediately appear in search results or analytics reports until 
 
 This behavior is expected and does not indicate a failed request.
 
----
+
 
 # Common Errors
 
@@ -261,7 +287,7 @@ This behavior is expected and does not indicate a failed request.
 }
 ```
 
----
+
 
 # Retry Guidance
 
@@ -273,7 +299,7 @@ If a request fails due to a temporary issue:
 
 This approach prevents duplicate user creation and improves reliability.
 
----
+
 
 # Python Example
 
@@ -310,7 +336,7 @@ print(response.status_code)
 print(response.json())
 ```
 
----
+
 
 # Common Use Cases
 
@@ -320,7 +346,7 @@ print(response.json())
 * Enrich user profiles with application metadata
 * Link backend identity systems with analytics reporting
 
----
+
 
 # Related APIs
 
@@ -329,7 +355,7 @@ print(response.json())
 * Update User
 * Delete User
 
----
+
 
 # Best Practices
 
@@ -341,19 +367,3 @@ print(response.json())
 * Monitor rate limits in production environments.
 * Verify user creation through Get User when required.
 
----
-
-# Changelog
-
-## Documentation Improvements
-
-This version introduces:
-
-* Workflow-oriented information architecture
-* Quick-start implementation guidance
-* Authentication examples
-* Error handling documentation
-* Retry guidance
-* User lifecycle explanation
-* Improved scanability through tables
-* Production-focused best practices
