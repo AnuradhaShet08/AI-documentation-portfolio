@@ -4,7 +4,7 @@
 
 This workflow illustrates how AI can support documentation activities while keeping technical writers and subject matter experts responsible for technical accuracy, content quality, and approval.
 
----
+
 
 ## High-Level Workflow
 
@@ -27,7 +27,7 @@ Requirements / Feature Inputs
  Continuous Improvement
 ```
 
----
+
 
 ## Workflow Principles
 
@@ -37,7 +37,7 @@ Requirements / Feature Inputs
 * Published content remains under human ownership.
 * Feedback and usage insights drive continuous improvement.
 
----
+
 
 ## Expected Benefits
 
