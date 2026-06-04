@@ -28,7 +28,7 @@ AI can assist with:
 
 You can create a rubric so that AI is aware of company style guide.
 
----
+
 
 ## Content Maintenance
 
@@ -38,7 +38,7 @@ AI can assist with:
 * Detecting duplicate information
 * Suggesting updates based on product changes
 
----
+
 
 ## Metadata Generation
 
@@ -49,7 +49,7 @@ AI can assist with:
 * Content descriptions
 * Search optimization
 
----
+
 
 ## Knowledge Discovery
 
@@ -60,7 +60,7 @@ AI can assist with:
 * Gap identification
 * Documentation analytics
 
----
+
 
 ## Human Oversight
 
